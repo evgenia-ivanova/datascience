@@ -1,6 +1,6 @@
 import Ivanova_es.integration.dataset_structure_common as d
 import Ivanova_es.validator.lib as i
-import Ivanova_es.integration.sydorovos.validator.lib as s
+import sydorovos.validator.lib as s
 
 def add_data(dataset: dict, latin_name: str, zip_city: str, st_assem: str, cen_year: str, horz_blck: str, whire_htap: str, horz_plant: str):
     latin_name1 = i.latin_name_validator(latin_name)
